@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/IV"
+        android:layout_weight="0.33"
+        android:src="@drawable/abc_list_focused_holo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:id="@+id/BTNno"
+        android:layout_gravity="right"
+        android:layout_weight="0.20"
+        android:layout_below="@+id/IV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/BTNyes"
+        android:layout_weight="0.08"
+        android:layout_below="@+id/IV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
